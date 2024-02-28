@@ -1,0 +1,42 @@
+/* Universal Selector */
+* {
+  background-color: antiquewhite;
+}
+
+/* id Selector */
+#hobbies {
+  color: white;
+  background-color: black;
+}
+
+/* Class Selector */
+.list {
+  color: rgb(238, 84, 84);
+}
+.med {
+  color: brown;
+}
+.cricket {
+  color: green;
+}
+.chess {
+  color: blueviolet;
+}
+.para {
+  color: palevioletred;
+}
+
+/* Grouping of Selector */
+.cricket,
+.chess,
+.med {
+  list-style: none;
+  font-size: 20px;
+}
+
+/* Element Selector */
+img {
+  border-radius: 5px;
+  width: 360px;
+  height: 351px;
+}
